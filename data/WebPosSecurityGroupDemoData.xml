@@ -18,10 +18,7 @@ specific language governing permissions and limitations
 under the License.
 -->
 <entity-engine-xml>
-    <!-- Asset Maintenance security -->
-    <SecurityPermission description="ALL Web POS operations." permissionId="WEBPOS_ADMIN"/>
-    <SecurityPermission description="Web POS View permission." permissionId="WEBPOS_VIEW"/>
-
+    <!-- WedbPOS security -->
     <SecurityGroupPermission groupId="FLEXADMIN" permissionId="MYPORTALBASE_ADMIN"/>
     <SecurityGroupPermission groupId="FULLADMIN" permissionId="WEBPOS_ADMIN"/>
 </entity-engine-xml>

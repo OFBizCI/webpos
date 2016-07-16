@@ -16,27 +16,27 @@
  * specific language governing permissions and limitations
  * under the License.
  *******************************************************************************/
-package org.ofbiz.webpos.search;
+package org.apache.ofbiz.webpos.search;
 
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
 
-import org.ofbiz.base.util.Debug;
-import org.ofbiz.base.util.UtilValidate;
-import org.ofbiz.entity.Delegator;
-import org.ofbiz.entity.GenericEntityException;
-import org.ofbiz.entity.GenericValue;
-import org.ofbiz.entity.condition.EntityCondition;
-import org.ofbiz.entity.condition.EntityFunction;
-import org.ofbiz.entity.condition.EntityOperator;
-import org.ofbiz.entity.model.DynamicViewEntity;
-import org.ofbiz.entity.model.ModelKeyMap;
-import org.ofbiz.entity.util.EntityListIterator;
-import org.ofbiz.entity.util.EntityQuery;
-import org.ofbiz.entity.util.EntityUtil;
-import org.ofbiz.service.DispatchContext;
-import org.ofbiz.service.ServiceUtil;
+import org.apache.ofbiz.base.util.Debug;
+import org.apache.ofbiz.base.util.UtilValidate;
+import org.apache.ofbiz.entity.Delegator;
+import org.apache.ofbiz.entity.GenericEntityException;
+import org.apache.ofbiz.entity.GenericValue;
+import org.apache.ofbiz.entity.condition.EntityCondition;
+import org.apache.ofbiz.entity.condition.EntityFunction;
+import org.apache.ofbiz.entity.condition.EntityOperator;
+import org.apache.ofbiz.entity.model.DynamicViewEntity;
+import org.apache.ofbiz.entity.model.ModelKeyMap;
+import org.apache.ofbiz.entity.util.EntityListIterator;
+import org.apache.ofbiz.entity.util.EntityQuery;
+import org.apache.ofbiz.entity.util.EntityUtil;
+import org.apache.ofbiz.service.DispatchContext;
+import org.apache.ofbiz.service.ServiceUtil;
 
 public class WebPosSearch {
 
